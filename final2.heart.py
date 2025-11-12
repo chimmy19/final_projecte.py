@@ -26,7 +26,11 @@ print(f'Mean Squared Error: {mse}')
 print(f'R_squared: {r2}')
 
 
-
+plt.scatter(y_test, y_pred)
+plt.xlabel("Actual Values")
+plt.ylabel("Predicted Values")
+plt.title("Actual vs Predicted (Heart Data)")
+plt.show() 
 
 
 
