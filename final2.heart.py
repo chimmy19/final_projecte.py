@@ -25,7 +25,7 @@ r2 = r2_score(y_test, y_pred)
 print(f'Mean Squared Error: {mse}')
 print(f'R_squared: {r2}')
 
-
+Plt.figure(fitgsize=(8,6)) 
 plt.scatter(y_test, y_pred)
 plt.xlabel("Actual Values")
 plt.ylabel("Predicted Values")
